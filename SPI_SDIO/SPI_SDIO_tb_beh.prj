@@ -1,0 +1,2 @@
+vhdl work "SPI_SDIO.vhd"
+vhdl work "SPI_SDIO_tb.vhd"

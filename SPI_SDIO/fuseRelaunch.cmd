@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Javad/Desktop/VHDL_Project_401611175/SPI_SDIO/SPI_SDIO_tb_isim_beh.exe" -prj "C:/Users/Javad/Desktop/VHDL_Project_401611175/SPI_SDIO/SPI_SDIO_tb_beh.prj" "work.SPI_SDIO_tb" 
