@@ -1,0 +1,56 @@
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/SPI_SDIO/SPI_SDIO.syr" 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/SPI_SDIO/SPI_SDIO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 SPI_SDIO.ngc SPI_SDIO.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SPI_SDIO_map.ncd SPI_SDIO.ngd SPI_SDIO.pcf 
+par -w -intstyle ise -ol high -mt off SPI_SDIO_map.ncd SPI_SDIO.ncd SPI_SDIO.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SPI_SDIO.twx SPI_SDIO.ncd -o SPI_SDIO.twr SPI_SDIO.pcf 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/SPI_SDIO/SPI_SDIO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 SPI_SDIO.ngc SPI_SDIO.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SPI_SDIO_map.ncd SPI_SDIO.ngd SPI_SDIO.pcf 
+par -w -intstyle ise -ol high -mt off SPI_SDIO_map.ncd SPI_SDIO.ncd SPI_SDIO.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SPI_SDIO.twx SPI_SDIO.ncd -o SPI_SDIO.twr SPI_SDIO.pcf 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/SPI_SDIO/SPI_SDIO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 SPI_SDIO.ngc SPI_SDIO.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SPI_SDIO_map.ncd SPI_SDIO.ngd SPI_SDIO.pcf 
+par -w -intstyle ise -ol high -mt off SPI_SDIO_map.ncd SPI_SDIO.ncd SPI_SDIO.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SPI_SDIO.twx SPI_SDIO.ncd -o SPI_SDIO.twr SPI_SDIO.pcf 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/SPI_SDIO/SPI_SDIO.syr" 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/SPI_SDIO/SPI_SDIO.syr" 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/SPI_SDIO/SPI_SDIO.syr" 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/SPI_SDIO/SPI_SDIO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 SPI_SDIO.ngc SPI_SDIO.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SPI_SDIO_map.ncd SPI_SDIO.ngd SPI_SDIO.pcf 
+par -w -intstyle ise -ol high -mt off SPI_SDIO_map.ncd SPI_SDIO.ncd SPI_SDIO.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SPI_SDIO.twx SPI_SDIO.ncd -o SPI_SDIO.twr SPI_SDIO.pcf 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/SPI_SDIO/SPI_SDIO.syr" 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.syr" 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.syr" 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.syr" 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.syr" 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.syr" 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 SPI_SDIO.ngc SPI_SDIO.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SPI_SDIO_map.ncd SPI_SDIO.ngd SPI_SDIO.pcf 
+par -w -intstyle ise -ol high -mt off SPI_SDIO_map.ncd SPI_SDIO.ncd SPI_SDIO.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SPI_SDIO.twx SPI_SDIO.ncd -o SPI_SDIO.twr SPI_SDIO.pcf 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 SPI_SDIO.ngc SPI_SDIO.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SPI_SDIO_map.ncd SPI_SDIO.ngd SPI_SDIO.pcf 
+par -w -intstyle ise -ol high -mt off SPI_SDIO_map.ncd SPI_SDIO.ncd SPI_SDIO.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SPI_SDIO.twx SPI_SDIO.ncd -o SPI_SDIO.twr SPI_SDIO.pcf 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.syr" 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.syr" 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.syr" 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.syr" 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.syr" 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.syr" 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/test/test/SPI_SDIO/SPI_SDIO.syr" 
+xst -intstyle ise -ifn "D:/VHDL_PROJECT/SPI_SDIO/SPI_SDIO.xst" -ofn "D:/VHDL_PROJECT/SPI_SDIO/SPI_SDIO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 SPI_SDIO.ngc SPI_SDIO.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SPI_SDIO_map.ncd SPI_SDIO.ngd SPI_SDIO.pcf 
+xst -intstyle ise -ifn "C:/Users/Javad/Desktop/VHDL_Project_401611175/SPI_SDIO/SPI_SDIO.xst" -ofn "C:/Users/Javad/Desktop/VHDL_Project_401611175/SPI_SDIO/SPI_SDIO.syr" 
+xst -intstyle ise -ifn "C:/Users/Javad/Desktop/VHDL_Project_401611175/SPI_SDIO/SPI_SDIO.xst" -ofn "C:/Users/Javad/Desktop/VHDL_Project_401611175/SPI_SDIO/SPI_SDIO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 SPI_SDIO.ngc SPI_SDIO.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SPI_SDIO_map.ncd SPI_SDIO.ngd SPI_SDIO.pcf 
+par -w -intstyle ise -ol high -mt off SPI_SDIO_map.ncd SPI_SDIO.ncd SPI_SDIO.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SPI_SDIO.twx SPI_SDIO.ncd -o SPI_SDIO.twr SPI_SDIO.pcf 
